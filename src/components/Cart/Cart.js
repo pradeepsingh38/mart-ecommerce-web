@@ -34,7 +34,7 @@ const Cart =()=>{
         dispatch(remove(id))
 
     }
-    const [count,setCount] =useState(1)
+    //const [count,setCount] =useState(1)
 
     const Totalprice=()=>{
         return cartdata.reduce((total,item)=>{

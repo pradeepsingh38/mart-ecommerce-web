@@ -3,10 +3,10 @@ import { products } from "../drive-download-20240403T064718Z-001/products"
 import { useDispatch } from "react-redux";
 import { useParams } from "react-router-dom";
 import { add } from "../redux/Cartslice";
-import { toast, ToastContainer } from 'react-toastify';
+import { toast} from 'react-toastify';
 
-import { RiStarSFill } from "react-icons/ri";
-import { BiSearch } from "react-icons/bi";
+// import { RiStarSFill } from "react-icons/ri";
+// import { BiSearch } from "react-icons/bi";
 import { Star } from "react-feather";
 
 
